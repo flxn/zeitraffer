@@ -1,0 +1,326 @@
+/* BEM support Func
+ -------------------------- */
+/* Element Chalk Variables */
+/* Transition
+-------------------------- */
+/* Colors
+-------------------------- */
+/* 53a8ff */
+/* 66b1ff */
+/* 79bbff */
+/* 8cc5ff */
+/* a0cfff */
+/* b3d8ff */
+/* c6e2ff */
+/* d9ecff */
+/* ecf5ff */
+/* Link
+-------------------------- */
+/* Background
+-------------------------- */
+/* Border
+-------------------------- */
+/* Box-shadow
+-------------------------- */
+/* Fill
+-------------------------- */
+/* Font
+-------------------------- */
+/* Size
+-------------------------- */
+/* z-index
+-------------------------- */
+/* Disable base
+-------------------------- */
+/* Icon
+-------------------------- */
+/* Checkbox
+-------------------------- */
+/* Radio
+-------------------------- */
+/* Select
+-------------------------- */
+/* Alert
+-------------------------- */
+/* Message Box
+-------------------------- */
+/* Message
+-------------------------- */
+/* Notification
+-------------------------- */
+/* Input
+-------------------------- */
+/* Cascader
+-------------------------- */
+/* Group
+-------------------------- */
+/* Tab
+-------------------------- */
+/* Button
+-------------------------- */
+/* cascader
+-------------------------- */
+/* Switch
+-------------------------- */
+/* Dialog
+-------------------------- */
+/* Table
+-------------------------- */
+/* Pagination
+-------------------------- */
+/* Popover
+-------------------------- */
+/* Tooltip
+-------------------------- */
+/* Tag
+-------------------------- */
+/* Tree
+-------------------------- */
+/* Dropdown
+-------------------------- */
+/* Badge
+-------------------------- */
+/* Card
+--------------------------*/
+/* Slider
+--------------------------*/
+/* Steps
+--------------------------*/
+/* Menu
+--------------------------*/
+/* Rate
+--------------------------*/
+/* DatePicker
+--------------------------*/
+/* Loading
+--------------------------*/
+/* Scrollbar
+--------------------------*/
+/* Carousel
+--------------------------*/
+/* Collapse
+--------------------------*/
+/* Transfer
+--------------------------*/
+/* Header
+  --------------------------*/
+/* Footer
+--------------------------*/
+/* Main
+--------------------------*/
+/* Break-point
+--------------------------*/
+/* Break-points
+ -------------------------- */
+/* Scrollbar
+ -------------------------- */
+/* Placeholder
+ -------------------------- */
+/* BEM
+ -------------------------- */
+/* Element Chalk Variables */
+/* Transition
+-------------------------- */
+/* Colors
+-------------------------- */
+/* 53a8ff */
+/* 66b1ff */
+/* 79bbff */
+/* 8cc5ff */
+/* a0cfff */
+/* b3d8ff */
+/* c6e2ff */
+/* d9ecff */
+/* ecf5ff */
+/* Link
+-------------------------- */
+/* Background
+-------------------------- */
+/* Border
+-------------------------- */
+/* Box-shadow
+-------------------------- */
+/* Fill
+-------------------------- */
+/* Font
+-------------------------- */
+/* Size
+-------------------------- */
+/* z-index
+-------------------------- */
+/* Disable base
+-------------------------- */
+/* Icon
+-------------------------- */
+/* Checkbox
+-------------------------- */
+/* Radio
+-------------------------- */
+/* Select
+-------------------------- */
+/* Alert
+-------------------------- */
+/* Message Box
+-------------------------- */
+/* Message
+-------------------------- */
+/* Notification
+-------------------------- */
+/* Input
+-------------------------- */
+/* Cascader
+-------------------------- */
+/* Group
+-------------------------- */
+/* Tab
+-------------------------- */
+/* Button
+-------------------------- */
+/* cascader
+-------------------------- */
+/* Switch
+-------------------------- */
+/* Dialog
+-------------------------- */
+/* Table
+-------------------------- */
+/* Pagination
+-------------------------- */
+/* Popover
+-------------------------- */
+/* Tooltip
+-------------------------- */
+/* Tag
+-------------------------- */
+/* Tree
+-------------------------- */
+/* Dropdown
+-------------------------- */
+/* Badge
+-------------------------- */
+/* Card
+--------------------------*/
+/* Slider
+--------------------------*/
+/* Steps
+--------------------------*/
+/* Menu
+--------------------------*/
+/* Rate
+--------------------------*/
+/* DatePicker
+--------------------------*/
+/* Loading
+--------------------------*/
+/* Scrollbar
+--------------------------*/
+/* Carousel
+--------------------------*/
+/* Collapse
+--------------------------*/
+/* Transfer
+--------------------------*/
+/* Header
+  --------------------------*/
+/* Footer
+--------------------------*/
+/* Main
+--------------------------*/
+/* Break-point
+--------------------------*/
+.el-tag {
+  background-color: rgba(50, 204, 188, 0.1);
+  display: inline-block;
+  padding: 0 10px;
+  height: 32px;
+  line-height: 30px;
+  font-size: 12px;
+  color: #32CCBC;
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 1px solid rgba(50, 204, 188, 0.2);
+  white-space: nowrap; }
+  .el-tag .el-icon-close {
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+    font-size: 12px;
+    height: 16px;
+    width: 16px;
+    line-height: 16px;
+    vertical-align: middle;
+    top: -1px;
+    right: -5px;
+    color: #32CCBC; }
+    .el-tag .el-icon-close::before {
+      display: block; }
+    .el-tag .el-icon-close:hover {
+      background-color: #32CCBC;
+      color: #fff; }
+  .el-tag--info {
+    background-color: rgba(10, 118, 164, 0.1);
+    border-color: rgba(10, 118, 164, 0.2);
+    color: #0A76A4; }
+    .el-tag--info.is-hit {
+      border-color: #0A76A4; }
+    .el-tag--info .el-tag__close {
+      color: #0A76A4; }
+    .el-tag--info .el-tag__close:hover {
+      background-color: #0A76A4;
+      color: #fff; }
+  .el-tag--success {
+    background-color: rgba(64, 145, 103, 0.1);
+    border-color: rgba(64, 145, 103, 0.2);
+    color: #409167; }
+    .el-tag--success.is-hit {
+      border-color: #409167; }
+    .el-tag--success .el-tag__close {
+      color: #409167; }
+    .el-tag--success .el-tag__close:hover {
+      background-color: #409167;
+      color: #fff; }
+  .el-tag--warning {
+    background-color: rgba(157, 164, 8, 0.1);
+    border-color: rgba(157, 164, 8, 0.2);
+    color: #9DA408; }
+    .el-tag--warning.is-hit {
+      border-color: #9DA408; }
+    .el-tag--warning .el-tag__close {
+      color: #9DA408; }
+    .el-tag--warning .el-tag__close:hover {
+      background-color: #9DA408;
+      color: #fff; }
+  .el-tag--danger {
+    background-color: rgba(179, 69, 14, 0.1);
+    border-color: rgba(179, 69, 14, 0.2);
+    color: #B3450E; }
+    .el-tag--danger.is-hit {
+      border-color: #B3450E; }
+    .el-tag--danger .el-tag__close {
+      color: #B3450E; }
+    .el-tag--danger .el-tag__close:hover {
+      background-color: #B3450E;
+      color: #fff; }
+  .el-tag--medium {
+    height: 28px;
+    line-height: 26px; }
+    .el-tag--medium .el-icon-close {
+      -webkit-transform: scale(0.8);
+      transform: scale(0.8); }
+  .el-tag--small {
+    height: 24px;
+    padding: 0 8px;
+    line-height: 22px; }
+    .el-tag--small .el-icon-close {
+      -webkit-transform: scale(0.8);
+      transform: scale(0.8); }
+  .el-tag--mini {
+    height: 20px;
+    padding: 0 5px;
+    line-height: 19px; }
+    .el-tag--mini .el-icon-close {
+      margin-left: -3px;
+      -webkit-transform: scale(0.7);
+      transform: scale(0.7); }
